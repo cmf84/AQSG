@@ -89,8 +89,8 @@ h1, h2, h3, h4 {
     padding-left: 10px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: red;
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: #f7f4ec;
 }
 
 .home {
@@ -106,7 +106,7 @@ h1, h2, h3, h4 {
 }
 
 .team {
-    background: url(img/lab.jpg);
+    background: url(img/team.jpg);
 }
 
 .contact {
@@ -159,13 +159,13 @@ h1, h2, h3, h4 {
 }
 
 footer {
-  padding-top: 10px;
+  padding-top: 12px;
   margin-top: 10px;
-  margin-bottom: -4px;
   background-color: #333333;
+  line-height: 1;
   color: #aaa;
   width: 100%;
-  height: 70px;
+  height: 65px;
 }
 
 footer .nav-item a {
@@ -193,7 +193,7 @@ footer a:hover, a:focus {
       margin-bottom: 22em;
     }
     footer {
-      height: 130px;
+      height: 110px;
       margin-bottom: 0;
     }
 }
